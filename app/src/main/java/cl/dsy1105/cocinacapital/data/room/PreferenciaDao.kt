@@ -11,6 +11,12 @@ interface PreferenciaDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun guardar(pref: PreferenciaEntity): Long
 
+    @Query("UPDATE preferencias SET emailUsuario = :nuevo WHERE emailUsuario = :anterior")
+    suspend fun cambiarCorreo(anterior: String, nuevo: String)
+
+    @Query("DELETE FROM preferencias WHERE emailUsuario = :email")
+    suspend fun borrarDeUsuario(email: String)
+
     @Query("SELECT * FROM preferencias WHERE emailUsuario = :email ORDER BY puntaje DESC")
     suspend fun obtenerPorUsuario(email: String): List<PreferenciaEntity>
 }

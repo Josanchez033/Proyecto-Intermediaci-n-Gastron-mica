@@ -7,6 +7,7 @@ import android.content.Context
 import android.location.LocationManager
 import androidx.core.app.NotificationCompat
 import cl.dsy1105.cocinacapital.data.room.LocalEntity
+import cl.dsy1105.cocinacapital.data.textoHorario
 
 // Última ubicación conocida del dispositivo (requiere permiso de ubicación).
 @SuppressLint("MissingPermission")
@@ -25,8 +26,8 @@ fun mostrarAlertaPromocion(context: Context, local: LocalEntity) {
     )
     val n = NotificationCompat.Builder(context, "promos")
         .setSmallIcon(android.R.drawable.star_on)
-        .setContentTitle("${local.emoji} ${local.nombre}: -${local.descuento}%")
-        .setContentText("${local.promocion} · ${local.horario}")
+        .setContentTitle("${local.nombre}: -${local.descuento}% cerca de ti")
+        .setContentText("${local.promocion} · ${textoHorario(local)}")
         .build()
     nm.notify(1, n)
 }
