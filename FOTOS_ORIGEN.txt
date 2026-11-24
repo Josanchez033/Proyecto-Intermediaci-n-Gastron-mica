@@ -1,0 +1,8 @@
+Fotos de licencia Unsplash (https://unsplash.com/license), descargadas de images.unsplash.com
+y redimensionadas a 720px. Origen por archivo (id de foto Unsplash):
+foto_mariscos 1615141982883-c7ad0e69fd62 | foto_pasta 1621996346565-e3dbc646d9a9 | foto_sushi 1579584425555-c3ce17fd4351
+foto_cafe 1495474472287-4d71bcdd2085 | foto_parrilla 1544025162-d76694265947 | foto_bowl 1512621776951-a57141f2eefd
+foto_postre 1488477181946-6428a0291777 | foto_pizza 1565299624946-b28f40a0ae38 | foto_paella 1534080564583-6be75777b70a
+foto_burger 1568901346375-23c9450c58cd | foto_autor 1504674900247-0877df9cc836 | foto_brunch 1535140728325-a4d3707eee61
+foto_camarones 1563379926898-05f4575a45d8 | foto_mesa 1414235077428-338989a2e8c0 | foto_terraza 1559339352-11d035aa65de
+foto_salon 1555396273-367ea4eb4db5 | foto_ensalada 1540189549336-e6e99c3679fe
