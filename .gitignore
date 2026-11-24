@@ -1,0 +1,21 @@
+# Android Studio / Gradle
+.gradle/
+build/
+/local.properties
+.idea/
+.kotlin/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Microservicios (Maven): compilados y bases H2 de prueba
+backend/**/target/
+backend/**/data/
+
+# OJO: keystore/cocinacapital.jks, keystore.properties y entrega/*.apk|*.aab SÍ se suben:
+# la pauta pide entregar el APK firmado, la llave y su configuración en el repositorio.
+
+# Kit para presentar en otro PC (los .jar pesan ~60 MB c/u; se copia al pendrive, no va a GitHub)
+presentacion/
